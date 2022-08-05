@@ -1,7 +1,6 @@
 import React from 'react'
 
 const MovieCard = ({ name, posterImage }) => {
-    console.log('name:', name)
     return (
         <div>
             <img className="w-full" alt={name}

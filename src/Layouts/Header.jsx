@@ -24,7 +24,7 @@ const Header = () => {
             <div className="absolute top-12 w-full">
                 <div className="mx-[30px] flex justify-between">
                     <div className="flex flex-row items-center">
-                        <img alt="back-arrow" src='./images/Back.png' />
+                        <img className='w-8 object-contain' alt="back-arrow" src='./images/Back.png' />
                         {enableSearch ?
                             <input
                                 class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
@@ -34,7 +34,7 @@ const Header = () => {
                                 Romantic Comedy
                             </div>}
                     </div>
-                    <img onClick={() => setenableSearch(!enableSearch)} className="w-1/12 h-1/2" alt="search" src='./images/search.png' />
+                    <img onClick={() => setenableSearch(!enableSearch)} className="w-8 object-contain" alt="search" src='./images/search.png' />
                 </div>
             </div>
         </div>
